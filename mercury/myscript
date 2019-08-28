@@ -1,0 +1,10 @@
+rm *dmp
+rm *tmp
+rm *out
+rm *aei
+rm *clo
+rm *~
+rm *xyz
+rm *dat
+rm *sav
+gfortran -w -o mercury6 mercury6_2.for
