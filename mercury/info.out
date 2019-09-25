@@ -5,7 +5,7 @@
    Algorithm: Bulirsch-Stoer (general)
 
    Integration start epoch:               0.0000000 days 
-   Integration stop  epoch:             250.0000000
+   Integration stop  epoch:           10000.0000000
    Output interval:                       1.000
    Output precision:                 medium
 

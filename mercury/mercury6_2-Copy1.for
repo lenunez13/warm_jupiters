@@ -241,7 +241,7 @@ c Local
       integer j
       real*8 peri, drde,drfdotde,drdotde,r, msum, rdot, rfdot
       real*8 periq, e, inc, pomega, node, Manom, f, temp, semi
-      real*8 adotovera, edot, edotovere,idotoveri,taugravz,taugrav
+      real*8 adotovera, edotovere,idotoveri,taugravz,taugrav
       real*8 cs,vrand,vkep
 
 c
@@ -260,14 +260,11 @@ c------------------------------------------------------------------------------
      $              v(2,j),v(3,j),
      $              periq, e, inc, pomega, node, Manom)
               semi = periq/(1.d0-e)
-              !tau = 3.65E7
-              tau = -500.d0
-              e0 = 0.1
-              A0 = 0.5
-              !edot = -exp(-time/tau)/tau*e0*
-     $          !(cos(2.d0*PI*time/tau) + 2.d0*PI*sin(2.d0*PI*time/tau))
-              edot = A0*2.d0*PI*e0/tau*cos(2.d0*PI*time/tau)
-              edotovere = edot/e
+              tau=250.d0
+              A0=1.d0
+              e0=0.5
+              !edotovere=(2.d0*PI*A0*e0/tau)*cos(2.d0*PI*time/tau)/e
+              edotovere = -1.d0/tau
               idotoveri=0.d0
 
               if (edotovere.ne.0) then
@@ -309,6 +306,7 @@ c------------------------------------------------------------------------------
                vu(2,j) = x(2,j)*adotovera
                vu(3,j) = x(3,j)*adotovera
                
+ 
                if (edotovere.ne.0.and.e.lt.1.and.e.gt.0) then
                     a(1,j) = a(1,j) + (
      $              cos(node)*(drdotde*cos(peri+f)-drfdotde
