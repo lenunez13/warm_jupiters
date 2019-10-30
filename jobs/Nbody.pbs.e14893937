@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/storage/home/len56/work/warm_jupiters/Nbody.py", line 86, in <module>
+    runsim(sim,tmax,Nout,gr=True,tides=True,integrator='ias15') 
+  File "/storage/home/len56/work/warm_jupiters/Nbody.py", line 70, in runsim
+    tau = Q/(3.0*k)*(m2/m0)/(R_jup/au)**5
+NameError: name 'm2' is not defined

@@ -1,0 +1,23 @@
+Simulation: archive.20191010T072443.bin
+Simulation start: 2019-10-10T07:24:43.947797
+
+---------------------------------
+REBOUND version:     	3.10.0
+REBOUND built on:    	Aug 29 2019 16:42:34
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-19.005034970717794 vy=6.401943376240366 vz=4.585814123744863>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-2.3457761354449427 vy=3.879640512760758 vz=-0.22949906966016415>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4686 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999998 e=0.13300000000000003 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+
+Simulation end: 2019-10-10T07:37:36.623977
+Runtime: 772.67618 s
+Simulation archive: /storage/home/len56/work/warm_jupiters/simulations/archive.20191010T072443.bin

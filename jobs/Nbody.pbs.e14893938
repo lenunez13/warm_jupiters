@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/storage/home/len56/work/warm_jupiters/Nbody.py", line 86, in <module>
+    runsim(sim,tmax,Nout,gr=True,tides=True,integrator='mercurius') 
+  File "/storage/home/len56/work/warm_jupiters/Nbody.py", line 69, in runsim
+    rebx.add_operator(mod)
+  File "/storage/home/l/len56/rebound/reboundx/reboundx/extras.py", line 118, in add_operator
+    self.process_messages()
+  File "/storage/home/l/len56/rebound/reboundx/reboundx/extras.py", line 207, in process_messages
+    self._sim.contents.process_messages()
+  File "/storage/home/len56/.local/lib/python3.6/site-packages/rebound/simulation.py", line 666, in process_messages
+    raise RuntimeError(msg[1:])
+RuntimeError: REBOUNDx Error: Operators that affect particle trajectories are not supported with Mercurius. Must add as forces.
+
