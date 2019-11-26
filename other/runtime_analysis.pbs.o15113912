@@ -1,0 +1,768 @@
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	2
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+
+Simulation start: 2019-11-12T08:27:58.469116
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:28:35.680504
+Simulation archive: simulation_archive/sa20191112T082758.bin
+Runtime: 37.211388 s
+
+Integration time: 1.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:28:35.680890
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:29:12.754499
+Simulation archive: simulation_archive/sa20191112T082835.bin
+Runtime: 37.073609 s
+
+Integration time: 1.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:29:12.754837
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:29:49.871482
+Simulation archive: simulation_archive/sa20191112T082912.bin
+Runtime: 37.116645 s
+
+Integration time: 1.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:29:49.871809
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:30:27.043500
+Simulation archive: simulation_archive/sa20191112T082949.bin
+Runtime: 37.171691 s
+
+Integration time: 1.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:30:27.043838
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:31:04.158503
+Simulation archive: simulation_archive/sa20191112T083027.bin
+Runtime: 37.114665 s
+
+Integration time: 1.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	2
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+
+Simulation start: 2019-11-12T08:31:04.158781
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:31:41.239497
+Simulation archive: simulation_archive/sa20191112T083104.bin
+Runtime: 37.080716 s
+
+Integration time: 10.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:31:41.239838
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:32:19.294496
+Simulation archive: simulation_archive/sa20191112T083141.bin
+Runtime: 38.054658 s
+
+Integration time: 10.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:32:19.294829
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:32:57.329501
+Simulation archive: simulation_archive/sa20191112T083219.bin
+Runtime: 38.034672 s
+
+Integration time: 10.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:32:57.329839
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:33:35.267498
+Simulation archive: simulation_archive/sa20191112T083257.bin
+Runtime: 37.937659 s
+
+Integration time: 10.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:33:35.267835
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:34:13.336495
+Simulation archive: simulation_archive/sa20191112T083335.bin
+Runtime: 38.06866 s
+
+Integration time: 10.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	2
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+
+Simulation start: 2019-11-12T08:34:13.336769
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:34:53.462500
+Simulation archive: simulation_archive/sa20191112T083413.bin
+Runtime: 40.125731 s
+
+Integration time: 100.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:34:53.462836
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:35:35.715503
+Simulation archive: simulation_archive/sa20191112T083453.bin
+Runtime: 42.252667 s
+
+Integration time: 100.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:35:35.715838
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:36:17.845501
+Simulation archive: simulation_archive/sa20191112T083535.bin
+Runtime: 42.129663 s
+
+Integration time: 100.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:36:17.845837
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:37:05.658502
+Simulation archive: simulation_archive/sa20191112T083617.bin
+Runtime: 47.812665 s
+
+Integration time: 100.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:37:05.658848
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:37:53.727504
+Simulation archive: simulation_archive/sa20191112T083705.bin
+Runtime: 48.068656 s
+
+Integration time: 100.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	2
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+
+Simulation start: 2019-11-12T08:37:53.727785
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:39:17.966505
+Simulation archive: simulation_archive/sa20191112T083753.bin
+Runtime: 84.23872 s
+
+Integration time: 999.9999999999999 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:39:17.966842
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:41:08.705504
+Simulation archive: simulation_archive/sa20191112T083917.bin
+Runtime: 110.738662 s
+
+Integration time: 999.9999999999999 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:41:08.705845
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:42:58.902494
+Simulation archive: simulation_archive/sa20191112T084108.bin
+Runtime: 110.196649 s
+
+Integration time: 999.9999999999999 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:42:58.902831
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:46:41.865498
+Simulation archive: simulation_archive/sa20191112T084258.bin
+Runtime: 222.962667 s
+
+Integration time: 999.9999999999999 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T08:46:41.865845
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:50:25.870502
+Simulation archive: simulation_archive/sa20191112T084641.bin
+Runtime: 224.004657 s
+
+Integration time: 999.9999999999999 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	2
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+
+Simulation start: 2019-11-12T08:50:25.870844
+INTEGRATING . . .
+Simulation end: 2019-11-12T08:59:40.008499
+Simulation archive: simulation_archive/sa20191112T085025.bin
+Runtime: 554.137655 s
+
+Integration time: 10000.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T08:59:40.008838
+INTEGRATING . . .
+Simulation end: 2019-11-12T09:13:25.710499
+Simulation archive: simulation_archive/sa20191112T085940.bin
+Runtime: 825.701661 s
+
+Integration time: 10000.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T09:13:25.710833
+INTEGRATING . . .
+Simulation end: 2019-11-12T09:25:54.581487
+Simulation archive: simulation_archive/sa20191112T091325.bin
+Runtime: 748.870654 s
+
+Integration time: 10000.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T09:25:54.581812
+INTEGRATING . . .
+Simulation end: 2019-11-12T09:52:24.332482
+Simulation archive: simulation_archive/sa20191112T092554.bin
+Runtime: 1589.75067 s
+
+Integration time: 10000.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T09:52:24.332810
+INTEGRATING . . .
+Simulation end: 2019-11-12T10:19:34.574508
+Simulation archive: simulation_archive/sa20191112T095224.bin
+Runtime: 1630.241698 s
+
+Integration time: 10000.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	2
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+
+Simulation start: 2019-11-12T10:19:34.574792
+INTEGRATING . . .
+Simulation end: 2019-11-12T11:19:47.915491
+Simulation archive: simulation_archive/sa20191112T101934.bin
+Runtime: 3613.340699 s
+
+Integration time: 100000.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T11:19:47.915820
+INTEGRATING . . .
+Simulation end: 2019-11-12T12:39:51.878482
+Simulation archive: simulation_archive/sa20191112T111947.bin
+Runtime: 4803.962662 s
+
+Integration time: 100000.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T12:39:51.878808
+INTEGRATING . . .
+Simulation end: 2019-11-12T14:00:07.266001
+Simulation archive: simulation_archive/sa20191112T123951.bin
+Runtime: 4815.387193 s
+
+Integration time: 100000.0 years
+Output number: 1000.0
+General relativity: 0
+Tides: 0
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.0 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.024802386342094 vy=1.0189201772853906 vz=0.7298687703651643>
+<rebound.Particle object, m=0.006290776001857852 x=1.4507988971188728 y=1.1507180275835502 z=-0.06807040907604041 vx=-0.37334891849716023 vy=0.6174756268130658 vz=-0.03652660122125186>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23889999999999997 e=0.4685999999999999 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.9229999999999992 e=0.13299999999999995 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420366 f=-4.858929729030365>
+
+Simulation start: 2019-11-12T14:00:07.266336
+INTEGRATING . . .
+Simulation end: 2019-11-12T16:55:06.425628
+Simulation archive: simulation_archive/sa20191112T140007.bin
+Runtime: 10499.159292 s
+
+Integration time: 100000.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1
+---------------------------------
+REBOUND version:     	3.10.2
+REBOUND built on:    	Oct 30 2019 07:20:08
+Number of particles: 	3
+Selected integrator: 	ias15
+Simulation time:     	0.0000000000000000e+00
+Current timestep:    	0.001000
+---------------------------------
+<rebound.Particle object, m=0.927 x=0.0 y=0.0 z=0.0 vx=0.0 vy=0.0 vz=0.0>
+<rebound.Particle object, m=0.002023739776014969 x=0.0471776804846251 y=0.09584017764464534 z=0.06865184748371472 vx=-3.0281023192555225 vy=1.0200317765899807 vz=0.7306650266722495>
+<rebound.Particle object, m=0.006290776001857852 x=1.4509016666654937 y=1.1509268011286553 z=-0.0679208612566454 vx=-0.3803497522726469 vy=0.6203667159602594 vz=-0.03497453688345992>
+---------------------------------
+None
+<rebound.Orbit instance, a=0.23890000000000008 e=0.46860000000000024 inc=0.6215925379262556 Omega=0.0 omega=1.152011554095865 f=0.038124380915976586>
+<rebound.Orbit instance, a=1.923 e=0.13300000000000006 inc=0.05908587035153258 Omega=3.141592653589793 omega=2.3887448807420384 f=-4.858929729030367>
+
+Simulation start: 2019-11-12T16:55:06.425968
+INTEGRATING . . .
+Simulation end: 2019-11-12T20:04:53.082494
+Simulation archive: simulation_archive/sa20191112T165506.bin
+Runtime: 11386.656526 s
+
+Integration time: 100000.0 years
+Output number: 1000.0
+General relativity: 1
+Tides: 1

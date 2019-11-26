@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/storage/home/len56/work/warm_jupiters/runjob.py", line 8, in <module>
+    nb.runsim(sim, tmax, Nout, gr=True, tides=True, integrator='ias15')
+  File "/storage/work/l/len56/warm_jupiters/src/nbody.py", line 73, in runsim
+    sim.integrate(tmax,exact_finish_time=0)
+  File "/storage/home/len56/.local/lib/python3.6/site-packages/rebound/simulation.py", line 1691, in integrate
+    self.process_messages()
+  File "/storage/home/len56/.local/lib/python3.6/site-packages/rebound/simulation.py", line 666, in process_messages
+    raise RuntimeError(msg[1:])
+RuntimeError: Can not open file.
