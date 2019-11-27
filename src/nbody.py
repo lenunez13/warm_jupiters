@@ -16,37 +16,17 @@ R_jup = const.R_jup.value
 Q = 1.0e5 #tidal quality factor
 k = 0.26 #tidal Love number
 
-def update_log(sim,tmax,Nout,generalRelativity,tides,epsilon,datetag):
+def update_log(sim,tmax,Nout,GR,tides,epsilon,datetag):
     logpath = '/storage/home/len56/work/warm_jupiters/data/datalog.csv'
     ps = sim.particles
     df = pd.read_csv(logpath,header=0).astype(str)
     df.at[datetag, 'datetag'] = datetag
-    df.at[datetag, 'sim.integrator'] = sim.integrator
-    df.at[datetag, 'sim.N'] = str(int(sim.N))
-    df.at[datetag, 'ps[0].m'] = ps[0].m
-    df.at[datetag, 'ps[1].m'] = ps[1].m
-    df.at[datetag, 'ps[1].a'] = ps[1].a
-    df.at[datetag, 'ps[1].e'] = ps[1].e
-    df.at[datetag, 'ps[1].inc'] = ps[1].inc
-    df.at[datetag, 'ps[1].Omega'] = ps[1].Omega
-    df.at[datetag, 'ps[1].omega'] = ps[1].omega
-    df.at[datetag, 'ps[1].f'] = ps[1].f
-    df.at[datetag, 'ps[1].M'] = ps[1].M
-    df.at[datetag, 'ps[2].m'] = ps[2].m
-    df.at[datetag, 'ps[2].a'] = ps[2].a
-    df.at[datetag, 'ps[2].e'] = ps[2].e
-    df.at[datetag, 'ps[2].inc'] = ps[2].inc
-    df.at[datetag, 'ps[2].Omega'] = ps[2].Omega
-    df.at[datetag, 'ps[2].omega'] = ps[2].omega
-    df.at[datetag, 'ps[2].f'] = ps[2].f
-    df.at[datetag, 'ps[2].M'] = ps[2].M
     df.at[datetag, 'tmax'] = tmax/years
     df.at[datetag, 'Nout'] = Nout
-    df.at[datetag, 'generalRelativity'] = generalRelativity
+    df.at[datetag, 'GR'] = GR
     df.at[datetag, 'tides'] = tides
     df.at[datetag, 'epsilon'] = epsilon
     df.to_csv(logpath,index=False)
-    
     return df,logpath
 
 def makesim(three_body=True,inner_mass=True):
@@ -99,11 +79,12 @@ def makesim_past():
             M = np.radians(-293.214))
     return sim
     
-def runsim(sim,tmax,Nout,generalRelativity=False,tides=False,epsilon=1e-9):
+def runsim(sim,tmax,Nout,GR=False,tides=False,Q=1.0e5,epsilon=1e-9,notes=''):
     sapath = '/storage/home/len56/work/warm_jupiters/simulation_archive/'
     start = datetime.datetime.now()
     datetag = start.isoformat().replace('-','').replace(':','').replace('.','')[:-6]
-    file = sapath+'sa'+datetag+'.bin'
+    file = 'sa'+datetag+'.bin'
+    filepath = sapath+file
     
     sim.integrator='ias15'
     sim.ri_ias15.epsilon = epsilon
@@ -111,15 +92,9 @@ def runsim(sim,tmax,Nout,generalRelativity=False,tides=False,epsilon=1e-9):
     interval =  tmax/Nout
     ps = sim.particles
     rebx = reboundx.Extras(sim)
-    sim.automateSimulationArchive(file,interval=interval,deletefile=True)
-    
-    df,logpath = update_log(sim,tmax,Nout,generalRelativity,tides,epsilon,datetag)
-    df.at[datetag,'date'] = str(start).split()[0]
-    df.at[datetag,'datetime'] = str(start).split()[1][:-7]
-    df.at[datetag,'file'] = file
-    df.to_csv(logpath,index=False)
+    sim.automateSimulationArchive(filepath,interval=interval,deletefile=True)
      
-    if generalRelativity == True:
+    if GR == True:
         gr = rebx.load_force("gr")
         rebx.add_force(gr)
         gr.params["c"] = constants.C  
@@ -133,10 +108,16 @@ def runsim(sim,tmax,Nout,generalRelativity=False,tides=False,epsilon=1e-9):
     sim.integrate(tmax,exact_finish_time=0)
     
     runtime = datetime.datetime.now() - start
+    
+    df,logpath = update_log(sim,tmax,Nout,GR,tides,epsilon,datetag)
+    df.at[datetag,'date'] = str(start).split()[0]
+    df.at[datetag,'datetime'] = str(start).split()[1][:-7]
+    df.at[datetag,'file'] = file
     df.at[datetag, 'runtime'] = runtime.total_seconds()
+    df.at[datetag, 'notes'] = notes
     df.to_csv(logpath,index=False)
 
-    return file,runtime.total_seconds()
+    return file,logpath
     
 def calc_imut(inc1,inc2,Omega1,Omega2):
     deltaOmega = Omega1-Omega2
