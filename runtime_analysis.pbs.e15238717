@@ -1,6 +1,0 @@
-/storage/home/len56/.local/lib/python3.6/site-packages/rebound/simulation.py:664: RuntimeWarning: REBOUNDx: Operators that affect particle trajectories with adaptive timesteps can give spurious results. Use sim.ri_ias15.epsilon=0 for fixed timestep with IAS, or use a different integrator.
-  warnings.warn(msg[1:], RuntimeWarning)
-Traceback (most recent call last):
-  File "/storage/home/len56/work/warm_jupiters/runtime_analysis2.py", line 27, in <module>
-    rt1111[epsilon][i] = f(1,1,1,1,tmax,Nout,epsilon)
-IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices

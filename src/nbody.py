@@ -6,6 +6,9 @@ import datetime
 from astropy import constants as const
 import pandas as pd
 
+logpath = '/storage/home/len56/work/warm_jupiters/data/datalog.csv'
+sapath = '/storage/home/len56/work/warm_jupiters/simulation_archive/'
+
 years = 2.*np.pi
 G = const.G.value
 c = const.c.value
@@ -16,18 +19,23 @@ R_jup = const.R_jup.value
 Q = 1.0e5 #tidal quality factor
 k = 0.26 #tidal Love number
 
-def update_log(sim,tmax,Nout,GR,tides,epsilon,datetag):
-    logpath = '/storage/home/len56/work/warm_jupiters/data/datalog.csv'
-    ps = sim.particles
-    df = pd.read_csv(logpath,header=0).astype(str)
-    df.at[datetag, 'datetag'] = datetag
-    df.at[datetag, 'tmax'] = tmax/years
-    df.at[datetag, 'Nout'] = Nout
-    df.at[datetag, 'GR'] = GR
-    df.at[datetag, 'tides'] = tides
-    df.at[datetag, 'epsilon'] = epsilon
+def update_log(tmax,Nout,GR,tides,epsilon,notes):
+    start = datetime.datetime.now()
+    tag = start.isoformat().replace('T','').replace(':','')\
+                                             .replace('-','').replace('.','')[2:-5]
+    df = pd.read_csv(logpath)
+    df = df.append({'tag':tag,
+                   'tmax': str(round(tmax/(2.*np.pi))),
+                   'Nout':str(round(Nout)),
+                   'GR':str(GR),
+                   'tides':str(tides),
+                   'epsilon':epsilon,
+                   'notes':notes,
+                   'runtime':'RUNNING...'},
+                   ignore_index=True)
     df.to_csv(logpath,index=False)
-    return df,logpath
+    del df
+    return tag,start
 
 def makesim(three_body=True,inner_mass=True):
     """Makes a rebound.Simulation() of system HD 147018."""
@@ -79,20 +87,13 @@ def makesim_past():
             M = np.radians(-293.214))
     return sim
     
-def runsim(sim,tmax,Nout,GR=False,tides=False,Q=1.0e5,epsilon=1e-9,notes=''):
-    sapath = '/storage/home/len56/work/warm_jupiters/simulation_archive/'
-    start = datetime.datetime.now()
-    datetag = start.isoformat().replace('-','').replace(':','').replace('.','')[:-6]
-    file = 'sa'+datetag+'.bin'
-    filepath = sapath+file
-    
+def runsim(sim,tmax,Nout,GR=False,tides=False,Q=1.0e5,epsilon=1e-9,notes='-'):
     sim.integrator='ias15'
     sim.ri_ias15.epsilon = epsilon
     sim.move_to_com()
     interval =  tmax/Nout
     ps = sim.particles
     rebx = reboundx.Extras(sim)
-    sim.automateSimulationArchive(filepath,interval=interval,deletefile=True)
      
     if GR == True:
         gr = rebx.load_force("gr")
@@ -105,19 +106,20 @@ def runsim(sim,tmax,Nout,GR=False,tides=False,Q=1.0e5,epsilon=1e-9,notes=''):
         tau = Q/(3.0*k)*((2.12*M_jup/M_sun)/ps[0].m)/(R_jup/au)**5.0
         ps[1].params["tau_e"] = tau
         
+    tag,start = update_log(tmax,Nout,GR,tides,epsilon,notes)
+    file = sapath+'sa'+tag+'.bin'
+    sim.automateSimulationArchive(file,interval=interval,deletefile=True)
+    
     sim.integrate(tmax,exact_finish_time=0)
     
     runtime = datetime.datetime.now() - start
+    df = pd.read_csv(logpath)
+    df.set_index('tag', inplace=True)
+    df.loc[float(tag),'runtime'] = runtime.total_seconds()
+    df.to_csv(logpath,index=True)
+    del df
     
-    df,logpath = update_log(sim,tmax,Nout,GR,tides,epsilon,datetag)
-    df.at[datetag,'date'] = str(start).split()[0]
-    df.at[datetag,'datetime'] = str(start).split()[1][:-7]
-    df.at[datetag,'file'] = file
-    df.at[datetag, 'runtime'] = runtime.total_seconds()
-    df.at[datetag, 'notes'] = notes
-    df.to_csv(logpath,index=False)
-
-    return file,logpath
+    return file
     
 def calc_imut(inc1,inc2,Omega1,Omega2):
     deltaOmega = Omega1-Omega2

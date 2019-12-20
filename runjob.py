@@ -1,20 +1,13 @@
 import numpy as np
 from src import nbody as nb
+years = 2.*np.pi
 
-generalRelativity = True
-tides = False
+tmax = 1e5*years
+Nout = 1e3
+GR = False
+tides = True
 epsilon = 1e-9
-years = 2.*np.pi
-tmax = 0.05e6*years
-Nout = 1e3
-sim = nb.makesim()
-file = nb.runsim(sim,tmax,Nout,generalRelativity=generalRelativity,tides=tides,epsilon=epsilon)[0]
+notes = ''
 
-generalRelativity = True
-tides = False
-epsilon = 1e-6
-years = 2.*np.pi
-tmax = 0.05e6*years
-Nout = 1e3
 sim = nb.makesim()
-file = nb.runsim(sim,tmax,Nout,generalRelativity=generalRelativity,tides=tides,epsilon=epsilon)[0]
+file = nb.runsim(sim,tmax=tmax,Nout=Nout,GR=GR,tides=tides,epsilon=epsilon,notes=notes)

@@ -1,0 +1,12 @@
+date,datetag,tmax,Nout,GR,tides,epsilon,runtime,notes,datetime,file,tag
+2019-11-29,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+nan,20191129T091555,1000000.0,1000.0,True,True,0.001,RUNNING...,nan,nan,nan,nan
+nan,20191129T092250,1000000.0,1000.0,True,True,1e-06,RUNNING...,nan,nan,nan,nan
+2019-11-29,20191129T092739,1000000.0,1000.0,True,True,1e-09,19211.41855,Friday log,09:27:39,sa20191129T092739.bin,nan
+2019-12-04,20191204T090606,1000.0,100.0,False,True,1e-06,25.161507,nan,09:06:06,sa20191204T090606.bin,nan
+2019-12-04,20191204T090903,1000.0,100.0,False,True,1e-06,24.824315,nan,09:09:03,sa20191204T090903.bin,nan
+2019-12-04,20191204T091019,1000.0,100.0,False,True,1e-06,25.008719,nan,09:10:19,sa20191204T091019.bin,nan
+nan,nan,1000.0,100.0,False,True,1e-06,RUNNING...,test,nan,nan,191204093126.0
+nan,nan,1000.0,100.0,False,True,1e-06,RUNNING...,test,nan,nan,191204093148.0
+nan,nan,1000.0,100.0,False,True,1e-06,RUNNING...,test,nan,nan,191204093149.0
+,,999.9999999999999,100,False,True,1e-06,RUNNING...,test,,,191204093325
